@@ -9,6 +9,11 @@
     background-position: 0px 0px;
   }
 }
+@media screen and (max-width:1024px){
+    .contenedor_buscamos_info{
+      max-width: 500px;
+    }
+}
 @media screen and (max-width:850px){
   .beauty{
     flex-direction: column-reverse;
@@ -22,7 +27,28 @@
   .beauty h2{
     text-align:center;
   }
+  .contenedor_buscamos{
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .contenedor_buscamos_info{
+    max-width: 90%;
+  }
+  .contenedor_buscamos picture{
+    flex-grow: 1;
+    padding: 10px;
+  }
+  .buscamos h2{
+    font-size: 20px;
+    padding: 30px 10px;
+  }
 }
+@media screen and (max-width:768px){
+    .servicios article{
+    max-width: 90%;
+    }
+  }
 @media screen and (max-width:480px){
   .contenedor_cabecera{
     display: flex;
@@ -36,6 +62,7 @@
     justify-content:flex-start;
     align-items: flex-start;
     padding: 10px;
+    margin: 10px;
   }
   .contenedor_menu li{
     border-bottom: 2px #333 dotted;
