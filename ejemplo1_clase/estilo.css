@@ -1,0 +1,89 @@
+.easyweb{
+}
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height:24px;
+  color: #333;
+}
+h1{
+  line-height:35px;
+  font-size: 30px;
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:stretch;
+  flex-wrap: wrap;
+}
+.titulorojo{
+  color: red;
+  font-weight: normal;
+  font-size: 16px;
+}
+.btn_gris{
+  background-color:#333;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding:15px 30px;
+  display: inline-block;
+}
+.info{
+  max-width:400px;
+}
+.features{
+  max-width:600px;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+.features article{
+  width: 200px;
+  padding: 15px 30px;
+  margin:10px;
+}
+.subtitulo2{
+  font-weight: bold;
+}
+.parrafos{
+  color: #838383;
+}
+
+/* ipad */
+@media screen and (max-width:820px){
+  .ancho{
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+  }
+  .features{
+    max-width:90%;
+  }
+  .features article{
+    width: 250px;
+    padding: 15px 20px;
+    margin:10px;
+  }
+  .info{
+    max-width:90%;
+  }
+}
+
+/* iphone */
+@media screen and (max-width:480px){
+  .features{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+  }
+  .features article{
+    width: 100%;
+    padding: 15px;
+    margin:0px;
+  }
+}
