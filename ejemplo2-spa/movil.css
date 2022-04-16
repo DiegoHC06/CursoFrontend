@@ -1,0 +1,84 @@
+@import url("estilo.css");
+@media screen and (max-width:1500px){
+  .slidefotos{
+    background-position: 0px -150px;
+  }
+}
+@media screen and (max-width:1270px){
+  .slidefotos{
+    background-position: 0px 0px;
+  }
+}
+@media screen and (max-width:850px){
+  .beauty{
+    flex-direction: column-reverse;
+    justify-content:space-between;
+    align-items:center;
+    padding-top: 10px;
+  }
+  .beauty article{
+    max-width:95%;
+  }
+  .beauty h2{
+    text-align:center;
+  }
+}
+@media screen and (max-width:480px){
+  .contenedor_cabecera{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .contenedor_menu{
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .contenedor_menu li{
+    border-bottom: 2px #333 dotted;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .contenedor_menu li a{
+    display: block;
+  }
+  .iconosredes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .iconosredes a{
+    margin-right:0px;
+  }
+  .dos{
+    order:1;
+  }
+  .tres{
+    order:2;
+  }
+  .uno{
+    order:3;
+  }
+  h1{
+    line-height:40px;
+    padding: 0px 20px;
+  }
+  .infoslide p{
+    font-size: 18px;
+    text-align: center;
+    line-height:20px;
+  }
+  .btn_rosado{
+    padding: 10px 20px;
+  }
+  .btn_borde{
+    padding: 10px 20px;
+  }
+  .beauty h2{
+    font-size: 18px;
+  }
+}
