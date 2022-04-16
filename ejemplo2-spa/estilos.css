@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Zilla+Slab:wght@300;400;600;700&display=swap');
+
 :root{
     --rosado:#fe3281;
     --beige: #fff9f1;
     --blanco: #ffffff;
     --negro: #000000;
+    --amarillo: #ffe8a4;
     --margen_izquierdo: 15px;
     --tipografiagruesa: 'Oswald', sans-serif;
     --tipografiadelgada: 'Zilla Slab', serif;
-  
+
+  }
+  *{
+    box-sizing: border-box;
+
   }
   body{
     font-family: 'Zilla Slab', serif;
@@ -51,10 +58,12 @@
     display: inline-block;
     transition: all .5s ease;
   }
+  .iconosredes a:hover{
+    color: var(--rosado);
+  }
   .iconosredes a i{
     font-size:50px;
   }
-
   .contenedor-menu{
       list-style: none;
       margin: 0;
@@ -63,13 +72,24 @@
       flex-direction: row;
       justify-content: space-around;
       align-items: stretch;
+      border: 2px var(--negro) solid;
   }
-  .contenedor-menu{
-    border: 2px var(--negro) solid;
+  .alineacion{
+    width: 250px;
+  }
+  .contenedor_iconomenu{
+    display:none;
+    text-align: center;
+  }
+  #iconomenu{
+    padding:10px;
+    border-radius: 5px;
+    background-color: var(--rosado);
+    color: var(--blanco);
+    font-size: 16px;
   }
   .contenedor-menu li{
   }
-
   .contenedor_menu li a{
     font-family: var(--tipografiagruesa);
     display: inline-block;
@@ -134,6 +154,10 @@
     padding: 15px 30px;
     text-decoration: none;
     display: inline-block;
+    transition: all .5s ease;
+  }
+  .btn_borde:hover{
+    background-color: var(--negro);
   }
   .beauty{
     display: flex;
@@ -155,9 +179,7 @@
     width:100%;
     height:100%;
     object-fit: cover;
-    box-shadow: 0px 0px 10px #ccc;
   }
-
 .buscamos{
     background-color:var(--beige);
   }

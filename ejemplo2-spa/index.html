@@ -12,11 +12,15 @@
 
 </head>
 <body>
-    <header class="arriba">
+    <header class="arriba ">
         <div class="ancho contenedor-cabecera">
-            <picture>
+            <picture >
                 <img src="imagenes/logocabecera.jpg" alt="logo_spa_lupita">
             </picture>
+            <div class="contenedor_iconomenu">
+                <i id="iconomenu" class="fa-solid fa-bars"></i>
+              </div>
+            </div>
             <aside class="iconosredes">
                 <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
@@ -33,6 +37,7 @@
         </nav>
     </header>
     <section class="slidefotos">
+
         <div class="infoslide ancho">
          <h1>PROMOCIONES DE MARZO</h1>
          <p>Se acerca la epoca de playa y por eso preparamos estas dos promociones ideales para ti.</p>
@@ -63,7 +68,7 @@
               <p class="puesto">Puesto de trabajo para Recepcionista</p>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium iusto corporis eveniet officia labore. Vitae, ea, eos exercitationem dolore iste repellat, harum quam voluptates earum cum fuga facere aspernatur sunt?</p>
             </article>
-            <article>
+            <article class="wow animate__animated animate__bounce animate__delay-2s">
               <p class="puesto">Puesto de trabajo para Masajista</p>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium iusto corporis eveniet officia labore. Vitae, ea, eos exercitationem dolore iste repellat, harum quam voluptates earum cum fuga facere aspernatur sunt?</p>
             </article>
@@ -116,5 +121,15 @@
         </picture>
         <a href="#">www.spasalon.com</a>
       </footer>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+      <script src='funciones.js'></script>
+
+      <!-- funciones javascript -->
+      <!-- <script>
+        $("#iconomenu").click(function(){
+          $(".contenedor_menu").slideToggle();
+        });
+      </script> -->
 </body>
 </html>

@@ -55,7 +55,17 @@
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
-    padding-bottom: 20px;
+  }
+  .contenedor_cabecera picture{
+    max-width: 150px;
+  }
+  .alineacion{
+    width: 100%;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
   }
   .contenedor_menu{
     flex-direction: column;
@@ -63,6 +73,10 @@
     align-items: flex-start;
     padding: 10px;
     margin: 10px;
+    display: none;
+  }
+  .contenedor_iconomenu{
+    display:block;
   }
   .contenedor_menu li{
     border-bottom: 2px #333 dotted;
