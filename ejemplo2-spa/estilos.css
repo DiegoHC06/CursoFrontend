@@ -26,23 +26,23 @@
     max-width: 1200px;
     margin:auto;
     align-items: center;
-
+  /* border:1px red solid; */
   }
   header{
     background-color: var(--beige);
-    border-top: .5em var(--rosado) solid;
+    border-top: 15px var(--rosado) solid;
     padding-bottom: 20px;
   }
-  .contenedor-cabecera{
+  .contenedor_cabecera{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items:center;
   }
-  .contenedor-cabecera picture{
+  .contenedor_cabecera picture{
     width: 200px;
   }
-  .contenedor-cabecera picture img{
+  .contenedor_cabecera picture img{
     width:100%;
     height: 100%;
     object-fit: cover;
@@ -64,7 +64,7 @@
   .iconosredes a i{
     font-size:50px;
   }
-  .contenedor-menu{
+  .contenedor_menu{
       list-style: none;
       margin: 0;
       padding:0;
@@ -88,7 +88,7 @@
     color: var(--blanco);
     font-size: 16px;
   }
-  .contenedor-menu li{
+  .contenedor_menu li{
   }
   .contenedor_menu li a{
     font-family: var(--tipografiagruesa);
