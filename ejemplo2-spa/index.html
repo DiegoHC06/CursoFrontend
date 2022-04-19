@@ -10,13 +10,17 @@
     <link rel="stylesheet" href="movil.css">
     <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="wow.min.js"></script>
 </head>
 <body>
+    <script>
+       new WOW().init();
+     </script>
     <header class="arriba">
         <div class="ancho contenedor_cabecera">
             <div class="alineacion">
-            <picture>
-                <img src="imagenes/logocabecera.jpg" alt="logo_spa_lupita">
+            <picture >
+                <img class="WOW animate__animated  animate__flipInX animate__delay-2s" src="imagenes/logocabecera.jpg" alt="logo_spa_lupita">
             </picture>
             <div class="contenedor_iconomenu">
                 <i id="iconomenu" class="fa-solid fa-bars"></i>
@@ -82,8 +86,8 @@
       </section>
       <section class="buscamos">
         <div class="servicios ancho">
-          <article>
-            <picture class="zoom">
+          <article class="wow animate__animated animate__backInRight animate__delay-2s">
+            <picture >
               <img src="imagenes/fotocircular1.jpg" alt="">
             </picture>
             <h2>MASAJES CORPORALES</h2>
