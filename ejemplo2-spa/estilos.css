@@ -176,9 +176,24 @@
   .beauty picture{
   }
   .beauty picture img{
+    border: 10px green solid;
     width:100%;
     height:100%;
     object-fit: cover;
+    transition: all .1s ease;
+    box-shadow: 0px 0px 10px #ccc;
+    /*filter: grayscale(100%);
+    filter: blur(30px);
+    filter: brightness(1);
+    filter: sepia(50%);*/
+    filter: opacity(50%);
+  }
+  .beauty picture img:hover{
+    /*filter: grayscale(0%);
+    filter: blur(0px);
+    filter: brightness(0.5);
+    filter: sepia(0%);*/
+    filter: opacity(0%);
   }
 .buscamos{
     background-color:var(--beige);
@@ -201,6 +216,11 @@
     width:100%;
     height:100%;
     object-fit: cover;
+    transition: all 5s ease;
+    filter: sepia(100%);
+  }
+  .contenedor_buscamos picture img:hover{
+    filter: sepia(30%);
   }
   .contenedor_buscamos_info{
     max-width: 600px;
@@ -218,6 +238,7 @@
     align-items:stretch;
     flex-wrap: wrap;
   }
+  
   .servicios article{
     max-width:350px;
     background-color: var(--amarillo);
@@ -231,10 +252,22 @@
   }
   .servicios picture{
     max-width:200px;
-  }
-  .servicios picture img{
+    overflow: hidden;
     border:10px var(--blanco) solid;
     border-radius: 50%;
+    box-shadow: 0px;
+    transition: all .5s ease;
+  }
+  .servicios picture img{
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease;
+  }
+  .servicios picture:hover{
+    box-shadow: 0px 0px 20px  #d79d29;
+  }
+  .servicios picture:hover img{
+    transform: scale(1.2);
   }
   footer{
     border-bottom: 15px var(--rosado) solid;
