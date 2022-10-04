@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>
-        <figure>
+        <div class="contenedor_menu ancho" >
+        <figure class="logo">
             <img src="imagenes/logo.jpg" alt="">
         </figure>
         <nav class="menu">
@@ -24,11 +25,13 @@
               <li><a href="#">Empleos</a></li>
             </ul>
           </nav>
-          <input type="text" name="text" id="buscar" >
+          <div class="input-f">
+          <input type="text" name="text" id="buscar" class="input-file" >
+        </div>
     </div>
     </header>
     <section>
-        <div>
+        <div class="portada ">
             <figure>
                 <img src="imagenes/foto1.jpg" alt="">
             </figure>
@@ -39,21 +42,24 @@
                 <img src="imagenes/foto2.jpg" alt="">
             </figure>
         </div>
-        <h3>CRÉELO</h3>
-        <P>Obtén el look de la selección nacional del calzado hacia arriaba</P>
-        <a href="a">COMPRA TODO</a>
+        <div class="contenedor-creelo">
+        <h3 class="titulo1">CRÉELO</h3>
+        <P class="parrafos">Obtén el look de la selección nacional del calzado hacia arriaba</P>
+        <a href="a" class="btn-negro">COMPRAR TODO</a>
+    </div>
     </section>
     <br>
-    <section>
-        <div>
+    <section >
+        <div class="portada">
             <figure>
                 <img src="imagenes/banner1.jpg" alt="">
             </figure>
             <figure>
                 <img src="imagenes/banner2.jpg" alt="">
             </figure>
-          <h3>DISEÑADO PARA VOLAR</h3>
+          
         </div>
+        <h3>DISEÑADO PARA VOLAR</h3>
     </section>
 </body>
 </html>

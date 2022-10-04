@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+  }
+  .ancho{
+    max-width: 1200px;
+    margin: auto;
+    border: 1px red solid;
+  }
+  .contenedor_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1600px;
+
+  }
+  .logo{
+    
+  max-width: 150px;
+  border: 3px green solid;
+  }
+  .logo img{
+    width: 100%;
+    
+  }
+  .menu{
+    align-items: center;
+    
+  border: 3px green solid;
+  }
+
+  .menu ul{
+    list-style: none;
+    max-width: 750px;
+  }
+  .menu ul li {
+    display: inline-block;
+  }
+  .menu ul li a{
+    color: black;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+
+  }
+  .menu ul li a:hover {
+    text-decoration: underline;
+  }
+  .input-f{
+    width: 500px;
+    border: 3px green solid;
+  }
+  .input-file{  
+    width: 100%;
+    padding: 5px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+
+  }
+  .portada{
+    display: flex;
+    padding-left: 10px;
+  }
+
+  .contenedor-creelo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .titulo1{
+    font-size: 26px;
+    color: black;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  .parrafos{
+    font-size: 15px;
+    font-weight: 100;
+    color: black;
+    padding-bottom: 5px;
+
+  }
+  .btn-negro{
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+
+  }
+
+  
