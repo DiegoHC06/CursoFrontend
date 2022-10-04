@@ -21,8 +21,7 @@ paginaweb
 
 extensiones
 
-< simuladormovil
-< awesome screenshot
-< pagerule
-
-< what font
+- simuladormovil
+> awesome screenshot
+> pagerule
+> what font
