@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap");
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   body {
-    font-family: helvetica;
+    font-family: "Signika", sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: #333;
+    color: rgb(0, 0, 0);
   }
   .ancho{
     max-width: 1200px;
@@ -82,20 +84,21 @@
     align-items: center;
   }
   .titulo1{
-    font-size: 26px;
+    font-size: 30px;
     color: black;
     font-weight: 700;
     line-height: 50px;
   }
   .parrafos{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 100;
     color: black;
-    padding-bottom: 5px;
-
+    padding-bottom: 20px;
+    text-align: center;
+    font: bold;
   }
   .btn-negro{
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     background-color: black;
     text-decoration: none;
@@ -103,5 +106,9 @@
     padding: 10px 20px;
 
   }
-
-  
+  .titulo2{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    line-height: 50px;
+  } 
