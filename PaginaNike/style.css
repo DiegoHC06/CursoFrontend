@@ -22,7 +22,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    max-width: 1600px;
+    max-width: 1200px;
 
   }
   .logo{
@@ -56,11 +56,12 @@
     text-decoration: underline;
   }
   .input-f{
-    width: 500px;
-    border: 3px green solid;
+    
   }
   .input-file{  
-    width: 100%;
+    width: 50px;
+    border: 3px green solid;
+      /*width: 100%;*/
     padding: 5px 30px;
     border-radius: 5px;
     background-color: #fff;
