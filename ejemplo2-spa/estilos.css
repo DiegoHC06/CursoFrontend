@@ -3,7 +3,7 @@
 :root{
     --rosado:#fe3281;
     --beige: #fff9f1;
-    --blanco: #ffffff;
+    --blanco: var(--blanco);
     --negro: #000000;
     --amarillo: #ffe8a4;
     --margen_izquierdo: 15px;
