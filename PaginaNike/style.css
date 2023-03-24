@@ -12,22 +12,87 @@
     color: rgb(0, 0, 0);
   }
   .ancho{
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
-    border: 1px red solid;
+    /* border: 1px red solid; */
   }
+  .bannerheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px red solid;
+    padding: 3px 0px;
+    gap: 150px;
+  }
+
+  .contenedor-botones-header{
+    display: flex; 
+    flex-direction: row;
+    border: 1px	yellow solid;
+    
+  }
+
+  .contenedor-nike-header{
+    border: 1px	green solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px; 
+    margin: 0px  50px;
+
+  }
+  .contenedor-nike-header p{
+    font-size: 20px;
+    font-weight: 400;
+    /* border: 1px	red solid; */
+  }
+  .contenedor-nike-header span, 
+  .contenedor-nike-header img{
+    margin: 0px 5px;
+
+  }
+  
+  .btn-blanco-header, .btn-negro-header{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    margin: 0px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 2px gray;
+    box-shadow: 0px 1px 2px grey;
+  }
+
+  .iconojordan{
+    max-width: 50px;
+    padding: 2px 5px;
+    border-radius: 2px;
+    border: 2px gray;
+    box-shadow: 0px 0px 3px grey;
+    text-align: center;
+  
+  }
+  .iconojordan img{
+    
+    width:  100%;
+  }
+  .division{
+    /* border: 1px	gray solid; */
+    padding: 20px;
+  } 
   .contenedor_menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: nowrap;
     align-items: center;
-    max-width: 1600px;
+    /* max-width: 1500px; */
+    margin: 0px 40px;
 
   }
   .logo{
-    
-  max-width: 150px;
+    padding: 0px 30px;
+    max-width: 150px;
   }
   .logo img{
     width: 100%;
@@ -35,44 +100,65 @@
   }
   .menu{
     align-items: center;
-    
+    padding: 0px;
+    margin: 0px auto;
   }
 
   .menu ul{
+    /* border: 1px	red solid; */
     list-style: none;
-    max-width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
-  .menu ul li {
-    display: inline-block;
-  }
+  
+  
   .menu ul li a{
     color: black;
     display: inline-block;
-    padding: 5px;
+    padding: 10px 10px; 
     text-decoration: none;
+    font-weight: 600;
 
   }
   .menu ul li a:hover {
     text-decoration: underline;
-  }.input-f{
-
-    width: 500px;
-    /*border: 3px green solid;*/
-    text-align: right;
+  }
+  .input-f{
+    margin: auto;
+    width: 200px;
+    border: 3px green solid;
+    text-align: center;
   }
   .input-file{  
-      /*width: 100%;*/
-    padding: 5px 30px;
-    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
     background-color: #fff;
     color: #333;
     text-decoration: none;
-    display: inline-block;
 
   }
+
    .portada{
     display: flex;
-    padding-left: 10px;
+    justify-content: center;
+  }
+  .portadavolar{
+    /* border: 1px	red solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+  }
+  .portadavolar figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
   }
 
   .contenedor-creelo{
@@ -99,7 +185,7 @@
   .btn-negro{
     font-size: 14px;
     color: white;
-    background-color: black;
+    background-color:  #333;;
     text-decoration: none;
     border-radius: 2px;
     padding: 10px 20px;
@@ -125,30 +211,42 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    padding: auto;
+    padding-left: 30px;
     
   }
   .contenedor-temporada p{
     color: white;
+    padding-bottom: 20px;
+    margin: 10px 0px;
     
+  }
+  .contenedor-botones-volar{
+    display: flex;
+    flex-direction: row;
     
+
   }
 
 
   .titulo3{
-    font-size: 30px;
+    font-size: 45px;
     color: white;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 55px;
   } 
 
+  .contenedor-botones2{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+  }
   .btn-blanco{
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(4, 4, 4);
     background-color: rgb(249, 249, 249);
     text-decoration: none;
-    border-radius: 2px;
-    padding: 10px 20px;
+    border-radius: 4px;
+    padding: 15px 50px;
 
   }
 
@@ -157,4 +255,12 @@
   footer{
     background-color: #333;
     color: white;
+
+    padding: 20px;
+  }
+
+  footer p{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
   }
