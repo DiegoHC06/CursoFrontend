@@ -1,5 +1,102 @@
 @import url(style.css);
 
-@media screen {
+@media screen and (max-width: 481px) {
+
+.bannerheader{
+    display: none;
+}
+.contenedor_menu{
     
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu{
+    width: 100%;
+    /* border: 1px	green solid; */
+}
+
+.menu ul{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px black dotted;
+    /* background-color: orange; */
+
+}
+
+.menu ul li{
+    text-align: center;
+    width: 100%;
+    background-color: #d0cfcf;
+    /* border: 1px red solid; */
+}
+.logo{
+    display: none;
+}
+
+.input-file{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    /* border: 1px red solid; */
+}
+.portada{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portada figure{
+    width: 100%;
+    padding: 20px;
+}
+.portada figure img{
+    width: 100%;
+}
+
+.portadavolar{
+    flex-direction: column;
+    padding: 20px;
+
+  }
+  .portadavolar figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+  }
+  .slidefoto{
+    height: 500px;
+    background-position: center;
+  }
+
+  .contenedor-volar{
+    flex-direction: column;
+    
+  }
+  .contenedor-botones-volar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+  }
+  .contenedor-botones2{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+  }
+
+
+
+
+
+
+
+
+
 }
