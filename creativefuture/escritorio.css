@@ -9,14 +9,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: #333;+
+    color: #333;
 }
 .ancho{
 max-width: 1200px;
 border: 1px red solid;
 margin: auto;
 }
-header{
+.encabezado{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -35,9 +35,7 @@ header{
     font-weight: 100; 
     
 }
-span{
-    font-weight: 700;
-}
+ 
 hr {
     height: 2px;
     width: 3%; 
@@ -45,55 +43,35 @@ hr {
   }
 
 .contenedorfotos {
-    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     border: 1px green solid; 
     
-    
 }
+/* 
 .fotonormal img{
     width: 300px;
 }
 .fotogrande img{
     width: 600px;
-}
+} */
 
 
 .contenedorfotos2 {
     display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 5px;
     
 }
 
 .contenedorfotos3 {
     display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
     
 }
 
-    
-@media screen and (max-width: 400px) {
-      body{
-      background-color: orange;
-      }
-      .contenedorfotos {
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 50px;
-        
-    }
-
-}
-
+   
