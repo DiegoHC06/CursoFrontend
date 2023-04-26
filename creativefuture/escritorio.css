@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: helvetica;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #333;+
@@ -12,34 +14,58 @@ body{
 .ancho{
 max-width: 1200px;
 border: 1px red solid;
+margin: auto;
 }
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.titulo{
+    font-size: 16px;
+    color: red;
+
+}
+.our{
+    color: rgb(25, 24, 24);
+    font-weight: 100; 
+    
+}
+span{
+    font-weight: 700;
+}
+hr {
+    height: 2px;
+    width: 3%; 
+    border: 1px	red solid;
+  }
+
 .contenedorfotos {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 50px;
-    border: 1px 
+    border: 1px green solid; 
     
     
 }
-.fotonormal{
+.fotonormal img{
     width: 300px;
 }
-.fotogrande{
-    width: 300px;
+.fotogrande img{
+    width: 600px;
 }
-.contenedorfotos figure{
-    flex-grow: initial;
-    margin: 0;
-    width: auto;
-}
+
 
 .contenedorfotos2 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row; 
     flex-wrap: wrap;
     align-items: center;
     gap: 50px;
@@ -48,8 +74,7 @@ border: 1px red solid;
 
 .contenedorfotos3 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row; 
     flex-wrap: wrap;
     align-items: center;
     gap: 50px;
