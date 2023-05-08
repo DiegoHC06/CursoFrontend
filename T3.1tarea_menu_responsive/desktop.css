@@ -17,7 +17,7 @@ body{
     max-width: 1200px;
     margin:auto;
     align-items: center;
-    border:1px red solid;
+    /* border:1px red solid; */
 }
 
 .encabezado {
@@ -60,7 +60,7 @@ nav a{
 }
 
 .contenedor_banner h1{
-    border: 1px red solid;
+    /* border: 1px red solid; */
     width:900px;
     color: var(--Menu);
     font-size: 40px;
@@ -76,12 +76,15 @@ nav a{
 .NuestroServicio h2{
     font-size: 36px ;
 }
+.NuestroServicio p {
+    color: var(--resalto);
+    font-size: 18px;
+}
 .contenedorcard article {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     display: inline-block;
     width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
+    margin: 0 15px;
     padding: 30px 20px;
     text-align: center;
     box-sizing: border-box;
@@ -107,6 +110,7 @@ footer {
     background-color: var(--resalto);
     text-align: center;
     padding: 20px;
+    margin-top: 20px;
 }
 footer img{
     width: 200px;
