@@ -1,5 +1,9 @@
 *{
     box-sizing: border-box;
+    --resalto:  #6cb500;
+    --Menu : #f3f3f3;
+    --letra: #0c0b0b;
+
 }
 
 body{
@@ -17,6 +21,7 @@ body{
 }
 
 .encabezado {
+    background-color: var(--Menu);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -39,7 +44,7 @@ nav ul{
 nav a{
     padding: 0 15px;
     text-decoration: none;
-    color: black;
+    color: var(--letra);
 
 }
 
@@ -57,10 +62,52 @@ nav a{
 .contenedor_banner h1{
     border: 1px red solid;
     width:900px;
-    color: white;
+    color: var(--Menu);
     font-size: 40px;
     font-weight: 400;
     line-height: 40px;
     margin: 0 auto;
     padding: 0 50px; 
+}
+
+.NuestroServicio{
+    text-align: center;
+}
+.NuestroServicio h2{
+    font-size: 36px ;
+}
+.contenedorcard article {
+    border: 1px red solid;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.contenedorcard i, h6{
+    color:var(--resalto);
+}
+.contenedorcard i{
+    font-size: 50px;
+}
+.contenedorcard h6{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.contenedorcard p{
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+footer {
+    background-color: var(--resalto);
+    text-align: center;
+    padding: 20px;
+}
+footer img{
+    width: 200px;
 }
