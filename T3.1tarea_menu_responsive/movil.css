@@ -55,6 +55,8 @@
     footer img{
         width: 250px;
     }
-    
+    #menu {
+        display: none;
+      }
 
 }
