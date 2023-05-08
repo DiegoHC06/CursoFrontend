@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     --resalto:  #6cb500;
     --Menu : #f3f3f3;
     --letra: #0c0b0b;
@@ -49,7 +51,7 @@ nav a{
 }
 
 .contenedor_banner{
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 300px;
     background-image: url(imagenes/foto_slide.jpg);
     background-size: 100%;
@@ -71,6 +73,8 @@ nav a{
 }
 
 .NuestroServicio{
+    padding: 20px 0px;
+    margin: 10px auto;
     text-align: center;
 }
 .NuestroServicio h2{
