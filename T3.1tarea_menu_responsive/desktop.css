@@ -33,17 +33,22 @@ body{
 .encabezado figure img{
     width: 200px;
 }
+#iconomenu {
+    color: var(--letra); 
+    display: none;
+  }
 
-nav ul{ 
+.menu { 
     list-style: none;
     margin: 0;
     padding:0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: stretch;
 }
-nav a{
+.menu a{
     padding: 0 15px;
     text-decoration: none;
     color: var(--letra);
@@ -79,6 +84,7 @@ nav a{
 }
 .NuestroServicio h2{
     font-size: 36px ;
+    font-weight: 600;
 }
 .NuestroServicio p {
     color: var(--resalto);

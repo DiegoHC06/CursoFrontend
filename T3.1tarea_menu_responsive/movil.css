@@ -1,0 +1,60 @@
+@media screen and (max-width: 650px) {
+
+    .menu { 
+    
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+
+}
+@media screen and (max-width: 500px) {
+    #iconomenu{
+        display: block;
+    }
+    .menu { 
+        flex-direction: column;
+    }
+/*menu con puntitos*/
+    .menu li{
+        width: 100%;
+    }
+    .menu a{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px var(--letra) dotted;
+    }
+
+    .contenedor_banner{
+        background-size: 200%;
+        background-position: 40%;
+    }
+    
+    .contenedor_banner h1{
+        font-size: 30px;
+    }
+    .NuestroServicio h2{
+        font-size: 30px;
+    }
+
+    .contenedorcard{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorcard article{
+
+        margin: 20px 0px;
+        width: 80%;
+    }
+    .contenedorcard i{
+        font-size: 70px;
+    }
+
+    footer img{
+        width: 250px;
+    }
+    
+
+}
