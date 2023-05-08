@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arimo';
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin:auto;
+    align-items: center;
+    border:1px red solid;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.encabezado figure img{
+    width: 200px;
+}
+
+nav ul{ 
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+nav a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+
+}
